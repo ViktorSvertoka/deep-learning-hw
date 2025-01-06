@@ -1,14 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
-    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma Land</title>
+    <link
+      rel="shortcut icon"
+      href="https://placekitten.com/96/139"
+      type="image/x-icon"
+    />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header__section">
+      <div class="header__container container">
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li class="nav__item">home</li>
+            <li class="nav__item">product</li>
+            <li class="nav__item">pricing</li>
+            <li class="nav__item">about</li>
+            <li class="nav__item">contact</li>
+          </ul>
+        </nav>
+        <a href="#" class="header__link">
+          <img src="./images/logo.png" alt="logo" width="186" height="58" />
+        </a>
+      </div>
+      <div class="header__socials">
+        <ul class="socials__list">
+          <li class="socials__item">
+            <svg class="header__logo" width="40" height="40" aria-label="logo">
+              <use href="./images/sprite.svg#icon-twitter"></use>
+            </svg>
+          </li>
+          <li class="socials__item">
+            <svg class="header__logo" width="40" height="40" aria-label="logo">
+              <use href="./images/sprite.svg#icon-facebook"></use>
+            </svg>
+          </li>
+          <li class="socials__item">
+            <svg class="header__logo" width="40" height="40" aria-label="logo">
+              <use href="./images/sprite.svg#icon-twitter"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__container container">
+          <h1 class="hero__title">The best products start with Figma</h1>
+          <p class="hero__subtitle">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </p>
+          <button class="hero_btn" type="button">Try For Free</button>
+        </div>
+      </section>
+      <section class="features">
+        <div class="features__container container">
+          <h2 class="features__title">Features</h2>
+          <p class="features__subtitle">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </p>
+          <ul class="features__list">
+            <li class="features__item">
+              <svg
+                class="features__logo"
+                width="40"
+                height="40"
+                aria-label="logo"
+              >
+                <use href="./images/sprite.svg#icon-figures"></use>
+              </svg>
+              <h3 class="features__desc">OpenType features Variable fonts</h3>
+              <p class="features__text">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal.
+              </p>
+            </li>
+            <li class="features__item">
+              <svg
+                class="features__logo"
+                width="40"
+                height="40"
+                aria-label="logo"
+              >
+                <use href="./images/sprite.svg#icon-draw"></use>
+              </svg>
+              <h3 class="features__desc">Design with real data</h3>
+              <p class="features__text">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal.
+              </p>
+            </li>
+            <li class="features__item">
+              <svg
+                class="features__logo"
+                width="40"
+                height="40"
+                aria-label="logo"
+              >
+                <use href="./images/sprite.svg#icon-brush"></use>
+              </svg>
+              <h3 class="features__desc">Fastest way to take action</h3>
+              <p class="features__text">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal.
+              </p>
+            </li>
+          </ul>
+          <div class="features__wrapper">
+            <img src="./images/features.png" alt="person" width="1177" />
+            <button type="button">
+              <svg
+                class="features__play"
+                width="40"
+                height="40"
+                aria-label="logo"
+              >
+                <use href="./images/sprite.svg#icon-play"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="organize">
+        <div class="organize__container container">
+          <div class="organize__wrapper">
+            <h2 class="organize__title">Fastest way to organize</h2>
+            <p class="organize__subtitle">
+              Most calendars are designed for teams. Slate is designed for
+              freelancers
+            </p>
+            <button class="organize__btn" type="button">Try For Free</button>
+          </div>
+          <img
+            class="organize__img"
+            src="./images/laptop.png"
+            alt="laptop"
+            width="624"
+          />
+        </div>
+      </section>
 
-</body>
+      <section class="prototyping">
+        <div class="prototyping__container container">
+          <img
+            class="prototyping__img"
+            src="./images/latter.png"
+            alt="latter"
+            width="854"
+          />
+          <div class="prototyping__wrapper">
+            <p class="prototyping__pretitle">At your fingertips</p>
+            <h2 class="prototyping__title">Lightning fast prototyping</h2>
+            <p class="prototyping__subtitle">Subscribe to our Newsletter</p>
+            <p class="prototyping__text">Available exclusivery on Figmaland</p>
+            <input
+              class="prototyping__input"
+              type="text"
+              placeholder="Your Email"
+            />
+            <button class="prototyping__btn" type="button">Subscribe</button>
+          </div>
+        </div>
+      </section>
+      <section class="partners">
+        <div class="partners__container container">
+          <h2 class="partners__title">Partners</h2>
+          <p class="partners__subtitle">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </p>
+          <ul class="partners__list">
+            <li class="partners__item">
+              <img
+                class="partners__image"
+                src="./images/logo-google.png"
+                alt="partner logo"
+                width="200"
+              />
+            </li>
+            <li class="partners__item">
+              <img
+                class="partners__image"
+                src="./images/logo-amazon.png"
+                alt="partner logo"
+                width="200"
+              />
+            </li>
+            <li class="partners__item">
+              <img
+                class="partners__image"
+                src="./images/logo-microsoft.png"
+                alt="partner logo"
+                width="200"
+              />
+            </li>
+            <li class="partners__item">
+              <img
+                class="partners__image"
+                src="./images/logo-uber.png"
+                alt="partner logo"
+                width="200"
+              />
+            </li>
+            <li class="partners__item">
+              <img
+                class="partners__image"
+                src="./images/logo-dropbox.png"
+                alt="partner logo"
+                width="200"
+              />
+            </li>
+            <li class="partners__item">
+              <img
+                class="partners__image"
+                src="./images/logo-google.png"
+                alt="partner logo"
+                width="200"
+              />
+            </li>
+            <li class="partners__item">
+              <img
+                class="partners__image"
+                src="./images/logo-uber.png"
+                alt="partner logo"
+                width="200"
+              />
+            </li>
+            <li class="partners__item">
+              <img
+                class="partners__image"
+                src="./images/logo-amazon.png"
+                alt="partner logo"
+                width="200"
+              />
+            </li>
+          </ul>
+          <button class="partners__btn" type="button">Try For Free</button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
