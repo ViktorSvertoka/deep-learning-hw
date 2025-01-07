@@ -21,11 +21,11 @@
       <div class="header__container container">
         <nav class="header__nav">
           <ul class="nav__list">
-            <li class="nav__item">home</li>
-            <li class="nav__item">product</li>
-            <li class="nav__item">pricing</li>
-            <li class="nav__item">about</li>
-            <li class="nav__item">contact</li>
+            <li class="nav__item">Home</li>
+            <li class="nav__item">Product</li>
+            <li class="nav__item">Pricing</li>
+            <li class="nav__item">About</li>
+            <li class="nav__item">Contact</li>
           </ul>
         </nav>
         <a href="#" class="header__link">
@@ -162,14 +162,17 @@
           <div class="prototyping__wrapper">
             <p class="prototyping__pretitle">At your fingertips</p>
             <h2 class="prototyping__title">Lightning fast prototyping</h2>
-            <p class="prototyping__subtitle">Subscribe to our Newsletter</p>
+            <h3 class="prototyping__subtitle">Subscribe to our Newsletter</h3>
             <p class="prototyping__text">Available exclusivery on Figmaland</p>
-            <input
-              class="prototyping__input"
-              type="text"
-              placeholder="Your Email"
-            />
-            <button class="prototyping__btn" type="button">Subscribe</button>
+            <form class="prototyping__form">
+              <input
+                class="prototyping__input"
+                type="email"
+                placeholder="Your Email"
+                required
+              />
+              <button class="prototyping__btn" type="submit">Subscribe</button>
+            </form>
           </div>
         </div>
       </section>
@@ -182,6 +185,7 @@
           </p>
           <ul class="partners__list">
             <li class="partners__item">
+              <p class="partners__text">Client Name</p>
               <img
                 class="partners__image"
                 src="./images/logo-google.png"
@@ -190,6 +194,7 @@
               />
             </li>
             <li class="partners__item">
+              <p class="partners__text">Client Name</p>
               <img
                 class="partners__image"
                 src="./images/logo-amazon.png"
@@ -198,6 +203,7 @@
               />
             </li>
             <li class="partners__item">
+              <p class="partners__text">Client Name</p>
               <img
                 class="partners__image"
                 src="./images/logo-microsoft.png"
@@ -206,6 +212,7 @@
               />
             </li>
             <li class="partners__item">
+              <p class="partners__text">Client Name</p>
               <img
                 class="partners__image"
                 src="./images/logo-uber.png"
@@ -214,6 +221,7 @@
               />
             </li>
             <li class="partners__item">
+              <p class="partners__text">Client Name</p>
               <img
                 class="partners__image"
                 src="./images/logo-dropbox.png"
@@ -222,6 +230,7 @@
               />
             </li>
             <li class="partners__item">
+              <p class="partners__text">client name</p>
               <img
                 class="partners__image"
                 src="./images/logo-google.png"
@@ -230,6 +239,7 @@
               />
             </li>
             <li class="partners__item">
+              <p class="partners__text">client name</p>
               <img
                 class="partners__image"
                 src="./images/logo-uber.png"
@@ -238,6 +248,7 @@
               />
             </li>
             <li class="partners__item">
+              <p class="partners__text">Client Name</p>
               <img
                 class="partners__image"
                 src="./images/logo-amazon.png"
@@ -249,7 +260,232 @@
           <button class="partners__btn" type="button">Try For Free</button>
         </div>
       </section>
+      <section class="testimonials">
+        <div class="testimonials__container container">
+          <h2 class="testimonials__title">Testimonials</h2>
+          <img
+            class="testimonials__image"
+            src="./images/logo-ibm.png"
+            alt="partner logo"
+            width="200"
+          />
+          <p class="testimonials__subtitle">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers who want a simple way to plan their schedule.
+          </p>
+          <div class="testimonials__wrapper">
+            <img
+              class="testimonials__avatar"
+              src="./images/avatar-1.png"
+              alt="avatar"
+              width="50"
+            />
+            <div class="testimonials__wrapp">
+              <h3 class="testimonials__slogan">Organize across</h3>
+              <p class="testimonials__desc">Ui designer</p>
+            </div>
+          </div>
+          <button type="button">More Testimonials</button>
+        </div>
+      </section>
+      <section class="pricing">
+        <div class="pricing__container container">
+          <h2 class="pricing__title">Pricing</h2>
+          <p class="pricing__subtitle">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </p>
+          <ul class="pricing__list">
+            <li class="pricing__item">
+              <h3>FREE</h3>
+              <p>Organize across all apps by hand</p>
+              <div class="pricing__wrapper">
+                <span class="pricing__number">0</span>
+                <div class="pricing__wrapp">
+                  <span class="pricing__currency">$</span>
+                  <span class="pricing__period">Per Month</span>
+                </div>
+              </div>
+              <ul class="pricing__features">
+                <li class="pricing__feature">Pricing Feature</li>
+                <li class="pricing__feature">Pricing Feature</li>
+                <li class="pricing__feature">Pricing Feature</li>
+                <li class="pricing__feature">Pricing Feature</li>
+                <li class="pricing__feature">Pricing Feature</li>
+              </ul>
+              <button class="pricing__btn" type="button">Order Now</button>
+            </li>
+            <li class="pricing__item">
+              <h3>STANDARD</h3>
+              <p>Organize across all apps by hand</p>
+              <div class="pricing__wrapper">
+                <span class="pricing__number">10</span>
+                <div class="pricing__wrapp">
+                  <span class="pricing__currency">$</span>
+                  <span class="pricing__period">Per Month</span>
+                </div>
+              </div>
+              <ul class="pricing__features">
+                <li class="pricing__feature">Pricing Feature</li>
+                <li class="pricing__feature">Pricing Feature</li>
+                <li class="pricing__feature">Pricing Feature</li>
+                <li class="pricing__feature">Pricing Feature</li>
+                <li class="pricing__feature">Pricing Feature</li>
+              </ul>
+              <button class="pricing__btn" type="button">Order Now</button>
+            </li>
+            <li class="pricing__item">
+              <h3>BUSINESS</h3>
+              <p>Organize across all apps by hand</p>
+              <div class="pricing__wrapper">
+                <span class="pricing__number">99</span>
+                <div class="pricing__wrapp">
+                  <span class="pricing__currency">$</span>
+                  <span class="pricing__period">Per Month</span>
+                </div>
+              </div>
+              <ul class="pricing__features">
+                <li class="pricing__feature">Pricing Feature</li>
+                <li class="pricing__feature">Pricing Feature</li>
+                <li class="pricing__feature">Pricing Feature</li>
+                <li class="pricing__feature">Pricing Feature</li>
+                <li class="pricing__feature">Pricing Feature</li>
+              </ul>
+              <button class="pricing__btn" type="button">Order Now</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="contacts__container container">
+          <h2 class="contacts__title">Contact Us</h2>
+          <p class="contacts__subtitle">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </p>
+          <div class="contacts__wrapper">
+            <form class="contacts__form" action="">
+              <h3 class="form__title">Contact Us</h3>
+              <input
+                class="form__input"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                aria-label="Your Name"
+              />
+              <input
+                class="form__input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                aria-label="Your Email"
+              />
+              <textarea
+                class="form__textarea"
+                id="message"
+                name="message"
+                placeholder="Your Message"
+                aria-label="Your Message"
+              ></textarea>
+              <button type="submit">Send</button>
+            </form>
+            <div class="contacts__wrap">
+              <address class="contacts__address">
+                <ul class="contacts__list">
+                  <li class="contacts__item">
+                    <svg
+                      class="contacts__icon"
+                      width="40"
+                      height="40"
+                      aria-label="icon"
+                    >
+                      <use href="./images/sprite.svg#icon-map"></use>
+                    </svg>
+                    <p class="contacts__text">
+                      6386 Spring St undefined Anchorage, Georgia 12473 United
+                      States
+                    </p>
+                  </li>
+                  <li class="contacts__item">
+                    <svg
+                      class="contacts__icon"
+                      width="40"
+                      height="40"
+                      aria-label="icon"
+                    >
+                      <use href="./images/sprite.svg#icon-android"></use>
+                    </svg>
+                    <a class="contacts__link" href="tel:+1234567890"
+                      >+1 (234) 567-890</a
+                    >
+                  </li>
+                  <li class="contacts__item">
+                    <svg
+                      class="contacts__icon"
+                      width="40"
+                      height="40"
+                      aria-label="icon"
+                    >
+                      <use href="./images/sprite.svg#icon-mail"></use>
+                    </svg>
+                    <a class="contacts__link" href="mailto:info@example.com"
+                      >info@example.com</a
+                    >
+                  </li>
+                </ul>
+              </address>
+              <div class="contacts__map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1511.2609838380781!2d-73.99471811672159!3d40.75054307797318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a21fb011c85%3A0x33df10e49762f8e4!2z0JzQtdC00ZbRgdC-0L0t0YHQutCy0LXRgC3Qs9Cw0YDQtNC10L0!5e0!3m2!1suk!2sua!4v1736283791142!5m2!1suk!2sua"
+                  width="516"
+                  height="344"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <ul class="contacts__socials">
+                <li class="contacts__social">
+                  <svg
+                    class="contacts__logo"
+                    width="40"
+                    height="40"
+                    aria-label="logo"
+                  >
+                    <use href="./images/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </li>
+                <li class="contacts__social">
+                  <svg
+                    class="contacts__logo"
+                    width="40"
+                    height="40"
+                    aria-label="logo"
+                  >
+                    <use href="./images/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </li>
+                <li class="contacts__social">
+                  <svg
+                    class="contacts__logo"
+                    width="40"
+                    height="40"
+                    aria-label="logo"
+                  >
+                    <use href="./images/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer__container container"></div>
+    </footer>
   </body>
 </html>
