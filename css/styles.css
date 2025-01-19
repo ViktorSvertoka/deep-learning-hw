@@ -1,0 +1,337 @@
+@font-face {
+  font-family: 'Graphik';
+  src: local('Graphik'), local('Graphik-Regular'),
+    url('../fonts/graphik-regular.woff2') format('woff2'),
+    url('../fonts/graphik-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: local('Graphik Bold'), local('Graphik-Bold'),
+    url('../fonts/graphik-bold.woff2') format('woff2'),
+    url('../fonts/graphik-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-primary: 'Graphik', sans-serif;
+  --main-color: #252b42;
+  --accent-color: #2091f9;
+  --text-color: #374754;
+  --secondary-color: #ffffff;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: 28px;
+  color: var(--main-color);
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 359px;
+  padding: 0 28px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 169px;
+  }
+}
+
+.header {
+}
+.header__container {
+}
+.container {
+}
+.header__nav {
+}
+.nav__list {
+}
+.nav__item {
+}
+.header__link {
+}
+.header__socials {
+}
+.socials__list {
+}
+.socials__item {
+}
+.header__logo {
+}
+.hero {
+}
+.hero__container {
+}
+.hero__title {
+}
+.hero__subtitle {
+}
+.hero_btn {
+}
+.features {
+}
+.features__container {
+}
+.features__title {
+}
+.features__subtitle {
+}
+.features__list {
+}
+.features__item {
+}
+.features__logo {
+}
+.features__desc {
+}
+.features__text {
+}
+.features__wrapper {
+}
+.features__play {
+}
+.organize {
+}
+.organize__container {
+}
+.organize__wrapper {
+}
+.organize__title {
+}
+.organize__subtitle {
+}
+.organize__btn {
+}
+.organize__img {
+}
+.prototyping {
+}
+.prototyping__container {
+}
+.prototyping__img {
+}
+.prototyping__wrapper {
+}
+.prototyping__pretitle {
+}
+.prototyping__title {
+}
+.prototyping__subtitle {
+}
+.prototyping__text {
+}
+.prototyping__form {
+}
+.prototyping__input {
+}
+.prototyping__btn {
+}
+.partners {
+}
+.partners__container {
+}
+.partners__title {
+}
+.partners__subtitle {
+}
+.partners__list {
+}
+.partners__item {
+}
+.partners__text {
+}
+.partners__image {
+}
+.partners__btn {
+}
+.testimonials {
+}
+.testimonials__container {
+}
+.testimonials__title {
+}
+.testimonials__image {
+}
+.testimonials__subtitle {
+}
+.testimonials__wrapper {
+}
+.testimonials__avatar {
+}
+.testimonials__wrapp {
+}
+.testimonials__slogan {
+}
+.testimonials__desc {
+}
+.pricing {
+}
+.pricing__container {
+}
+.pricing__title {
+}
+.pricing__subtitle {
+}
+.pricing__list {
+}
+.pricing__item {
+}
+.pricing__wrapper {
+}
+.pricing__number {
+}
+.pricing__wrapp {
+}
+.pricing__currency {
+}
+.pricing__period {
+}
+.pricing__features {
+}
+.pricing__feature {
+}
+.pricing__btn {
+}
+.contacts {
+}
+.contacts__container {
+}
+.contacts__title {
+}
+.contacts__subtitle {
+}
+.contacts__wrapper {
+}
+.contacts__form {
+}
+.form__title {
+}
+.form__input {
+}
+.form__textarea {
+}
+.contacts__wrap {
+}
+.contacts__address {
+}
+.contacts__list {
+}
+.contacts__item {
+}
+.contacts__icon {
+}
+.contacts__text {
+}
+.contacts__link {
+}
+.contacts__map {
+}
+.contacts__socials {
+}
+.contacts__social {
+}
+.contacts__logo {
+}
+.footer {
+}
+.footer__container {
+}
+.footer__section {
+}
+.footer__section--pages {
+}
+.footer__title {
+}
+.footer__list {
+}
+.footer__item {
+}
+.footer__section--team {
+}
+.footer__section--clients {
+}
+.footer__section--contacts {
+}
+.footer__contact {
+}
+.footer__contact--location {
+}
+.footer__icon {
+}
+.footer__text {
+}
+.footer__contact--phone {
+}
+.footer__link {
+}
+.footer__social-list {
+}
+.footer__social-item {
+}
+.footer__social-icon {
+}
