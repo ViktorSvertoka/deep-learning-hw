@@ -5,12 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figma Land</title>
-    <link
-      rel="shortcut icon"
-      href="https://placekitten.com/96/139"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
@@ -32,25 +28,45 @@
         <a href="#" class="header__link">
           <img src="./images/logo.png" alt="logo" width="186" height="58" />
         </a>
-      </div>
-      <div class="header__socials">
-        <ul class="socials__list">
-          <li class="socials__item">
-            <svg class="header__logo" width="40" height="40" aria-label="logo">
-              <use href="./images/sprite.svg#icon-twitter"></use>
-            </svg>
-          </li>
-          <li class="socials__item">
-            <svg class="header__logo" width="40" height="40" aria-label="logo">
-              <use href="./images/sprite.svg#icon-facebook"></use>
-            </svg>
-          </li>
-          <li class="socials__item">
-            <svg class="header__logo" width="40" height="40" aria-label="logo">
-              <use href="./images/sprite.svg#icon-twitter"></use>
-            </svg>
-          </li>
-        </ul>
+        <div class="header__socials">
+          <ul class="socials__list">
+            <li class="socials__item">
+              <svg
+                class="header__logo"
+                width="40"
+                height="40"
+                aria-label="logo"
+              >
+                <use href="./images/sprite.svg#icon-twitter"></use>
+              </svg>
+            </li>
+            <li class="socials__item">
+              <svg
+                class="header__logo"
+                width="40"
+                height="40"
+                aria-label="logo"
+              >
+                <use href="./images/sprite.svg#icon-facebook"></use>
+              </svg>
+            </li>
+            <li class="socials__item">
+              <svg
+                class="header__logo"
+                width="40"
+                height="40"
+                aria-label="logo"
+              >
+                <use href="./images/sprite.svg#icon-twitter"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+        <button class="header__menu-open" type="button">
+          <svg class="header__menu-icon">
+            <use href="./images/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>

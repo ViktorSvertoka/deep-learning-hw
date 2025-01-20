@@ -103,235 +103,352 @@ button {
 
 .header {
 }
-.header__container {
-}
-.container {
-}
+
 .header__nav {
+  display: none;
 }
+
+@media screen and (min-width: 1440px) {
+  .header__nav {
+    display: block;
+  }
+}
+
 .nav__list {
 }
+
 .nav__item {
 }
+
 .header__link {
 }
+
 .header__socials {
 }
+
 .socials__list {
 }
+
 .socials__item {
 }
+
 .header__logo {
 }
+
+.header__menu-open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .header__menu-open {
+    display: none;
+  }
+}
+
+.header__menu-icon {
+  fill: var(--main-color);
+}
+
 .hero {
 }
-.hero__container {
-}
+
 .hero__title {
 }
+
 .hero__subtitle {
 }
+
 .hero_btn {
 }
+
 .features {
 }
+
 .features__container {
 }
+
 .features__title {
 }
+
 .features__subtitle {
 }
+
 .features__list {
 }
+
 .features__item {
 }
+
 .features__logo {
 }
+
 .features__desc {
 }
+
 .features__text {
 }
+
 .features__wrapper {
 }
+
 .features__play {
 }
+
 .organize {
 }
+
 .organize__container {
 }
+
 .organize__wrapper {
 }
+
 .organize__title {
 }
+
 .organize__subtitle {
 }
+
 .organize__btn {
 }
+
 .organize__img {
 }
+
 .prototyping {
 }
+
 .prototyping__container {
 }
+
 .prototyping__img {
 }
+
 .prototyping__wrapper {
 }
+
 .prototyping__pretitle {
 }
+
 .prototyping__title {
 }
+
 .prototyping__subtitle {
 }
+
 .prototyping__text {
 }
+
 .prototyping__form {
 }
+
 .prototyping__input {
 }
+
 .prototyping__btn {
 }
+
 .partners {
 }
-.partners__container {
-}
+
 .partners__title {
 }
+
 .partners__subtitle {
 }
+
 .partners__list {
 }
+
 .partners__item {
 }
+
 .partners__text {
 }
+
 .partners__image {
 }
+
 .partners__btn {
 }
+
 .testimonials {
 }
-.testimonials__container {
-}
+
 .testimonials__title {
 }
+
 .testimonials__image {
 }
+
 .testimonials__subtitle {
 }
+
 .testimonials__wrapper {
 }
+
 .testimonials__avatar {
 }
+
 .testimonials__wrapp {
 }
+
 .testimonials__slogan {
 }
+
 .testimonials__desc {
 }
+
 .pricing {
 }
-.pricing__container {
-}
+
 .pricing__title {
 }
+
 .pricing__subtitle {
 }
+
 .pricing__list {
 }
+
 .pricing__item {
 }
+
 .pricing__wrapper {
 }
+
 .pricing__number {
 }
+
 .pricing__wrapp {
 }
+
 .pricing__currency {
 }
+
 .pricing__period {
 }
+
 .pricing__features {
 }
+
 .pricing__feature {
 }
+
 .pricing__btn {
 }
+
 .contacts {
 }
-.contacts__container {
-}
+
 .contacts__title {
 }
+
 .contacts__subtitle {
 }
+
 .contacts__wrapper {
 }
+
 .contacts__form {
 }
+
 .form__title {
 }
+
 .form__input {
 }
+
 .form__textarea {
 }
+
 .contacts__wrap {
 }
+
 .contacts__address {
 }
+
 .contacts__list {
 }
+
 .contacts__item {
 }
+
 .contacts__icon {
 }
+
 .contacts__text {
 }
+
 .contacts__link {
 }
+
 .contacts__map {
 }
+
 .contacts__socials {
 }
+
 .contacts__social {
 }
+
 .contacts__logo {
 }
+
 .footer {
 }
-.footer__container {
-}
+
 .footer__section {
 }
+
 .footer__section--pages {
 }
+
 .footer__title {
 }
+
 .footer__list {
 }
+
 .footer__item {
 }
+
 .footer__section--team {
 }
+
 .footer__section--clients {
 }
+
 .footer__section--contacts {
 }
+
 .footer__contact {
 }
+
 .footer__contact--location {
 }
+
 .footer__icon {
 }
+
 .footer__text {
 }
+
 .footer__contact--phone {
 }
+
 .footer__link {
 }
+
 .footer__social-list {
 }
+
 .footer__social-item {
 }
+
 .footer__social-icon {
 }
