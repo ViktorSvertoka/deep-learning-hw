@@ -102,6 +102,17 @@ button {
 }
 
 .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header__nav {
@@ -124,6 +135,7 @@ button {
 }
 
 .header__socials {
+  display: none;
 }
 
 .socials__list {
@@ -141,6 +153,8 @@ button {
   justify-content: center;
   background-color: transparent;
   border: none;
+  width: 40px;
+  height: 32px;
 }
 
 @media screen and (min-width: 1440px) {
@@ -150,10 +164,18 @@ button {
 }
 
 .header__menu-icon {
-  fill: var(--main-color);
+  fill: var(--secondary-color);
 }
 
 .hero {
+  background: url(../images/hero-mobile.png);
+  background-color: var(--bg-color);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
 
 .hero__title {
@@ -388,6 +410,7 @@ button {
 }
 
 .contacts__map {
+  display: none;
 }
 
 .contacts__socials {
