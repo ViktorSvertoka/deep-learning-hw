@@ -87,10 +87,29 @@ button {
   font: inherit;
 }
 
+.button {
+  display: inline-block;
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+  text-align: center;
+  border-radius: 35px;
+  padding: 16px 86px;
+  font-size: 20px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  border: none;
+
+  &:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    transform: scale(1.05);
+  }
+}
+
 .container {
   width: 100%;
   max-width: 359px;
-  padding: 0 28px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -174,17 +193,40 @@ button {
   background-position: center;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
+  height: 828px;
   position: relative;
 }
 
+@media screen and (min-width: 1440px) {
+  .hero {
+    background: url(../images/hero.jpg);
+    width: 100vw;
+    height: 930px;
+  }
+}
+
 .hero__title {
+  color: var(--secondary-color);
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 168px;
 }
 
 .hero__subtitle {
+  color: var(--secondary-color);
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.hero__text {
+  display: none;
 }
 
 .hero_btn {
+  display: block;
+  margin: 80px auto 0;
 }
 
 .features {
