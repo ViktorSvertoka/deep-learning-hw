@@ -32,6 +32,7 @@
   --accent-color: #2091f9;
   --text-color: #374754;
   --secondary-color: #ffffff;
+  --input-color: #e8e8e8;
 }
 
 html {
@@ -482,12 +483,26 @@ button {
 }
 
 .prototyping__form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .prototyping__input {
+  background-color: var(--input-color);
+  border-radius: 39px;
+  border: 1px;
+  padding: 19px 35px;
+  width: 319px;
 }
 
 .prototyping__btn {
+  background-color: var(--accent-color);
+  border-radius: 39px;
+  padding: 19px 30px;
+  border: none;
+  color: var(--secondary-color);
+  width: 319px;
 }
 
 .partners {
